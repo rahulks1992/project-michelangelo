@@ -3,6 +3,14 @@ body{
 	font-family: 'Helvetica';
 	background-color:#ccc;
 }
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
 *{
 	padding: 0;
 	margin: 0;
@@ -10,13 +18,13 @@ body{
 .main-container{
 	width: 960px;
 	margin:0 auto;
-	background-color: #fff;
 }
 .page{	
 	text-align: center;
 	padding: 20px;
 	margin-bottom: 20px;
 	box-shadow: 2px 2px 5px 2px #999;
+	background-color: #fff;
 }
 .module-venn{
 	position: relative;	
@@ -72,4 +80,63 @@ body{
 	height:45px;	
 	margin: 10px auto 10px auto;
 	background-color: #7f7f7f;
+}
+.module-perfume{
+	background-color: #924954;
+}
+.module-perfume .container{
+	width: 400px;
+	margin: 0px auto;
+	padding: 30px 0;
+}
+.module-perfume .perfume-lid{
+	width: 100px;
+	margin: 0 auto;
+}
+.module-perfume .perfume-cap{
+	width: 50%;
+	height: 60px;	
+	float: left;
+}
+.module-perfume .perfume-cap:first-child{
+	background-color: #fff;
+	border-top-left-radius: 5px;
+}
+.module-perfume .perfume-cap:last-child{
+	background-color: #f0f0f0;
+	border-top-right-radius: 5px;
+}
+.module-perfume .separator{	
+	width: 135px;
+	margin: 0 auto;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	background-color: #fff;
+	height: 5px;
+}
+.module-perfume .perfume-liquid{
+	border-radius: 5px;	
+	background-color: #fff;
+	padding: 10px;
+}
+.module-perfume .perfume-liquid>div{
+	background-color: #924954;
+	height: 550px;
+	position: relative;
+}
+.module-perfume .inner-container{
+	background-color: #f7f36e;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 65%;
+}
+.module-perfume .pipe{
+	position: absolute;
+	left: 49%;
+	height: 95%;
+	width: 2%;
+	top: 0;
+	opacity: 0.8;
+	background-color: #f0f0f0;
 }
