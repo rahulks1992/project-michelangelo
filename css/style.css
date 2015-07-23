@@ -140,3 +140,139 @@ body{
 	opacity: 0.8;
 	background-color: #f0f0f0;
 }
+.module-bus{
+	height: 470px;
+}
+.module-bus .frame{
+	width: 95%;
+	position:relative;
+	height: 340px;
+	background-color: #e13835;
+	margin:0 auto;
+	padding: 20px;
+}
+.module-bus .door{
+	float: left;
+	margin-left: 10px;
+	height: 170px;
+	width: 17%;
+	border: 5px solid #b30000;
+	border-radius: 15px;
+	background-color: #fff;
+
+}
+.module-bus .windows{
+	float: right;
+	margin-left: 15px;
+	height: 120px;
+	width: 17%;
+	border: 5px solid #b30000;
+	border-radius: 15px;
+	background-color: #fff;
+}
+.module-bus .board{
+	float: right;
+	background-color: #e9fca2;
+	border-radius: 10px;
+	width: 9%;
+	height: 50px;
+	margin-top: 30px;
+}
+.module-bus .wheels{
+	background-color: #fff;
+	position: absolute;	
+	padding: 10px;
+	bottom: -55px;
+	border-radius: 50%;
+	height: 180px;
+	width: 180px;
+}
+.module-bus .wheels:first-child{
+	left: 70px;
+}
+.module-bus .wheels:last-child{
+	right: 70px;
+}
+.module-bus .outer-wheel{
+	background-color: #000;	
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+.module-bus .inner-wheel{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color: #999;	
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+}
+.module-bus .headlight{
+	position: absolute;	
+	left: -10px;
+	bottom: 30px;
+	height: 40px;	
+	border: 5px solid #f0ff00;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;  
+}
+.module-bill-board .board{
+	height: 260px;
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+	background-color: #fff;
+	border:20px solid #000;
+}
+.module-bill-board .board p{	
+	font-size: 12em;
+}
+.module-bill-board .lights-row{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.module-bill-board .lights-row .lights{	
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	border: 10px solid #000;
+}
+.module-bill-board .lights-row .lights:before{
+	content: '';
+	border-radius: 50%;	
+	position: absolute;
+	bottom: 0;
+	left: -25px;
+	border: 25px solid #000;
+	
+}
+.module-bill-board .lights-row .lights:first-child{
+	left: 12%;
+}
+.module-bill-board .lights-row .lights:last-child{
+	right: 12%;
+	left: initial;
+}
+.module-bill-board .bottom-section{
+	width: 500px;
+	margin: 0 auto;
+}
+.module-bill-board .bottom-stand{
+	width: 95%;
+	margin: 0 auto;
+	border: 5px solid #000;
+}
+.module-bill-board .pillar{
+	width: 25%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: #000; 
+}
+.module-bill-board .foundation{
+	width: 40%;
+	margin: 0 auto;
+	height: 50px;
+	background-color: #000;
+}
