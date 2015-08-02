@@ -320,7 +320,7 @@ body{
 	height: 50%;
 	border:5px solid #c42819;
 }
-.module-crosshair .inner-most-circle,.module-crosshair .core{
+.module-crosshair .inner-most-circle{
 	border-radius: 50%;    
 	position: relative;
     width: 50%;
@@ -330,15 +330,21 @@ body{
     position: relative;
     z-index: 100;
 }
-.module-crosshair .core{
-	position: absolute;
-	left: 25%;
-	top: 0;
-	background-color: #fff;
+.module-crosshair .inner-most-circle .horizontal{
+	width: 3px;
+    position: absolute;
+    left: 48%;
+    top: 31%;
+    height: 30px;
+    background-color: #c42819;
 }
-.module-crosshair .inner-most-circle .quadrant{
-	width: 40%;
-	height: 40%;
+.module-crosshair .inner-most-circle .vertical{
+	height: 3px;
+	position: absolute;
+	width: 30px;
+	top: 45%;
+	left: 34%;
+	background-color: #c42819;
 }
 .module-clock{
 	width: 500px;
